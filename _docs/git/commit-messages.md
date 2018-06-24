@@ -1,7 +1,7 @@
 ---
 title: Commit Messages
 category: Git
-order: 1
+order: 2
 ---
 
 Your commit messages MUST follow on of these two templates:

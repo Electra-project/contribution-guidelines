@@ -9,6 +9,8 @@ order: 1
 - Any commit MUST be working by itself in order to allow a rollback to this commit without breaking the project.
 - A commit MUST be focused and concerns a few (ideally just one) files in order to ease the peer-review process and the log history checking.
 
+---
+
 ## Exceptions
 
 Some edge cases can skip this rule:

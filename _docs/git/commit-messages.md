@@ -4,15 +4,28 @@ category: Git
 order: 2
 ---
 
-Your commit messages MUST follow on of these two templates:
+A commit message is templated like this:
 
-- `[workspace/path/to/file]: [infinitive verb] [target] (in [scope])`
-- `[scope]: [infinitive verb] [target] (in [scope])`
+- `[PATH]: [ACTION] [TARGET] (in [SCOPE])`
+
+or:
+
+`[SCOPE]: [ACTION[] [TARGET]`
 
 **Rules**
 
-- If you use the file workspace path, and this path includes `src`, you MUST omit the `src` part in the path.
-- If you use the file workspace path, the file extension MUST be omitted.
+- The **PATH** MUST be the workspace relative file or directory path WITHOUT any trimming slash.
+- The **PATH** and **ACTION** MUST be in lowercase.
+- If the **PATH** starts with `src/`, you MUST omit the `src/` part.
+- The **PATH** MUST omit the file extension.
+- If the **PATH** is an unnamed file (.env, .travis.yml), you must use the `[SCOPE]: ...` template.
+
+**Commonly Used Scopes**
+
+- `.editorconfig*`: `editorconfig: `
+- `.env*`: `env: `
+- `.travis*`: `travis: `
+- `package*`: `npm: `
 
 **Examples**
 

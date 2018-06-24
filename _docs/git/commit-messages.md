@@ -16,8 +16,9 @@ Your commit messages MUST follow on of these two templates:
 
 **Examples**
 
-```
+```bash
 > git status
 Changes to be committed:
   modified:   src/libs/example.js
 > git commit -m "libs/example: fix foo value in bar() method"
+```

@@ -1,0 +1,10 @@
+# ----
+# Site
+
+title: Electra Contribution Guidelines
+url:
+baseurl:
+google_analytics_key:
+show_full_navigation: true
+
+remote_theme: CloudCannon/edition-jekyll-template

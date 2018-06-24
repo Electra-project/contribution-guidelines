@@ -3,7 +3,7 @@
 
 title: Electra Guidelines
 url: "https://electra-project.github.io/contribution-guidelines"
-baseurl: "https://long-pig.cloudvent.net"
+baseurl:
 google_analytics_key:
 show_full_navigation: true
 

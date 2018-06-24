@@ -6,6 +6,9 @@ order: 3
 
 You made a mistake ? That's fine since the magic of Git allows you to rectify almost any mistake you made. Here is how to do it.
 
+
+---
+
 ## Edit the last commit message
 
 ```bash
@@ -17,6 +20,8 @@ You may need to force the push after that if you did already pushed the edited c
 ```bash
 git push origin head -f
 ```
+
+---
 
 ## Edit older-than-the-last-one commit messages
 
@@ -60,6 +65,8 @@ We save the file and the text editor will re-open allowing us to edit the commit
 ```bash
 git push origin head -f
 ```
+
+---
 
 ## Squashing commits
 

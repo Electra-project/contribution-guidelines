@@ -10,6 +10,7 @@ Each of your commit MUST follow these 2 rules:
 
 Some exceptional cases can skip this rule:
 - Design integration (CSS, etc)
+- Migration of the code to integrate a major upgrade from a dependency (Typescript, Webpack, etc)
 - Refactoring
 
 However, in these cases, they should be done in a decicated pull request and do not integrate any other kind of change.

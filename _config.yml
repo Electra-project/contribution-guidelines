@@ -7,6 +7,19 @@ baseurl: "https://long-pig.cloudvent.net"
 google_analytics_key:
 show_full_navigation: true
 
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo:
+description: Electra Contribution Guidelines for developers & contributors.
+author:
+  name: Electra Project
+  email: coordinators@electraproject.org
+  twitter: ElectracoinECA
+social:
+  name: Electra Project
+  links:
+    - https://electraproject.org
+    - https://github.com/Electra-project
+
 # -----
 # Build
 

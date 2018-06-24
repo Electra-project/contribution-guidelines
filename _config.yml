@@ -7,4 +7,16 @@ baseurl:
 google_analytics_key:
 show_full_navigation: true
 
+# -----
+# Build
+
+timezone: Etc/UTC
+
+permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
 remote_theme: CloudCannon/edition-jekyll-template

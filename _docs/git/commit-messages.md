@@ -14,7 +14,9 @@ or like that:
 
 The first one will generally be prefered over the second one since the second is more specific to edge cases.
 
-### Rules
+---
+
+## Rules
 
 - The `PATH` MUST be the workspace relative file or directory path WITHOUT any trimming slash.
 - The `PATH` and `ACTION` MUST be in lowercase.

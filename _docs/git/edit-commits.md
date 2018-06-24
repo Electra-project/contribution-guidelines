@@ -146,9 +146,7 @@ libs/example: fix foo value in bar() method
 # This is the commit message #3:
 ```
 
-We can now save the file (with `:` then `wq` under Vim) and push our changes.
-
-You may need to force the push after that if you did already pushed the edited commit:
+We can now save the fileand eventually force-push them to the remote repository if you already pushed the edited commits beforehand:
 
 ```bash
 git push origin head -f

@@ -4,6 +4,8 @@ category: Git
 order: 1
 ---
 
+---
+
 ## Rules
 
 - Any commit MUST be working by itself in order to allow a rollback to this commit without breaking the project.

@@ -14,7 +14,7 @@ or like that:
 
 The first one will generally be prefered over the second one since the second is more specific to edge cases.
 
-**Rules**
+### Rules
 
 - The **PATH** MUST be the workspace relative file or directory path WITHOUT any trimming slash.
 - The **PATH** and **ACTION** MUST be in lowercase.
@@ -22,14 +22,14 @@ The first one will generally be prefered over the second one since the second is
 - The **PATH** MUST omit the file extension.
 - If the **PATH** is an unnamed file (.env, .travis.yml), you must use the `[SCOPE]: ...` template.
 
-**Commonly Used Scopes**
+### Common Patterns
 
 - `.editorconfig*`: `editorconfig: `
 - `.env*`: `env: `
 - `.travis*`: `travis: `
 - `package*`: `npm: `
 
-**Examples**
+### Examples
 
 ```bash
 > git status

@@ -4,7 +4,7 @@ category: Git
 order: 3
 ---
 
-You made a mistake ? That's fine since the magic of Git allow you to rectify almost any mistake you made. Here is how to do it.
+You made a mistake ? That's fine since the magic of Git allows you to rectify almost any mistake you made. Here is how to do it.
 
 ## Edit the last commit message
 

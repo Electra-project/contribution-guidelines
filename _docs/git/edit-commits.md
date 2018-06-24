@@ -55,7 +55,7 @@ r 0896f05 libs/example: fix oof value in bar() method
 pick e3bbca5 libs/anotherExample: add doThis() method
 ```
 
-We save the file and the text editor will re-open to suggest me to edit the commit message. Let's edit it and push the changes,which may need to be "forced if you already pushed the edited commit beforehand:
+We save the file and the text editor will re-open allowing us to edit the commit message. Let's change it, save the file and push the changes which may need to be "forced" if you already pushed the edited commit beforehand:
 
 ```bash
 git push origin head -f
@@ -115,7 +115,7 @@ pick e3bbca5 libs/anotherExample: add doThis() method
 
 This means "Please merge 398a7e4 and 65f2a18 together to create a new commit hash, then merge this new commit with 0896f05 to create another new commit hash".
 
-I save the file and the text editor will re-open to suggest me to edit the commit message of these 3 merged commits. Be careful, by default, it will propose all the commit messages together:
+I save the file and the text editor will re-open allowing us to edit the commit message of these 3 merged commits. Be careful, by default, it will propose all the commit messages together:
 
 ```bash
 # This is a combination of 3 commits.

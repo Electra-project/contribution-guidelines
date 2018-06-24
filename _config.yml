@@ -38,5 +38,26 @@ collections:
     permalink: /:path/
     output: true
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: "docs"
+    values:
+      seo:
+        type: Article
+      _comments:
+        category: Group navigation links with this field
+        order: Used to sort links in the navigation
+      _options:
+        content:
+          width: 800
+          height: 2000
+
 # https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/
 remote_theme: CloudCannon/edition-jekyll-template

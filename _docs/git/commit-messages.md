@@ -4,13 +4,15 @@ category: Git
 order: 2
 ---
 
-A commit message is templated like this:
+A commit message is templated either like this:
 
 - `[PATH]: [ACTION] [TARGET] (in [SCOPE])`
 
-or:
+or like that:
 
-`[SCOPE]: [ACTION[] [TARGET]`
+- `[SCOPE]: [ACTION[] [TARGET]`
+
+The first one will generally be prefered over the second one since the second is more specific to edge cases.
 
 **Rules**
 

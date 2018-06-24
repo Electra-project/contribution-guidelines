@@ -23,13 +23,6 @@ The first one will generally be prefered over the second one since the second is
 - If the `PATH` is an unnamed file (.env, .travis.yml), you MUST use the `[SCOPE]: ...` template.
 - The `ACTION` MUST be an infinitive verb.
 
-## Common Patterns
-
-- `.editorconfig*`: `editorconfig: `
-- `.env*`: `env: `
-- `.travis*`: `travis: `
-- `package*`: `npm: `
-
 ## Common Actions
 
 - `comment`: When you added, removed or updated the comments. It's not required to add a target in this case.
@@ -42,6 +35,14 @@ The first one will generally be prefered over the second one since the second is
 - `rename`: When you rename a file BUT do ot change its workspace path.
 - `update`: When you update a text, a markdown or a test file. It's not required to add a target in this case.
 - `upgrade`: When you upgrade dependencies.
+
+## Common Scopes
+
+- `.editorconfig*`: `editorconfig: `
+- `.env*`: `env: `
+- `.travis*`: `travis: `
+- `package*`: `npm: `
+- `webpack*.config*`: `webpack: `
 
 ## Examples
 

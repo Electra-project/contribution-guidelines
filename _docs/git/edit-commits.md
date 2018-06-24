@@ -6,7 +6,7 @@ order: 3
 
 You made a mistake ? That's fine since the magic of Git allow you to rectify almost any mistake you made. Here is how to do it.
 
-## Updating the last commit message
+## Edit the last commit message
 
 ```bash
 git commit --amend
@@ -18,7 +18,7 @@ You may need to force the push after that if you did already pushed the edited c
 git push origin head -f
 ```
 
-## Editing older than the last one commits messages
+## Edit older-than-the-last-one commit messages
 
 git rebase -i HEAD
 

@@ -12,4 +12,4 @@ Some exceptional cases can skip this rule:
 - Design integration (CSS, etc)
 - Refactoring
 
-However, in these cases, they should be done on a specific pull request and do not integrate any other kind of change.
+However, in these cases, they should be done in a decicated pull request and do not integrate any other kind of change.

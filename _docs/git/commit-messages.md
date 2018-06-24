@@ -29,6 +29,7 @@ The first one will generally be prefered over the second one since the second is
 
 ## Common Actions
 
+- `add`: When you added a new behavior to the code, a new dependency or a new config property.
 - `comment`: When you added, removed or updated the comments. It's not required to add a target in this case.
 - `create`: When you create a new file. You must use this one only file by file.
 - `delete`: When you delete a file or a directory. It's not required to add a target in this case.
